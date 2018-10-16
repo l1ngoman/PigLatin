@@ -1,0 +1,54 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+h1 {
+ font-family: cursive;
+ text-align: left;
+ padding: 125px 0px 15px 150px;
+
+}
+h3 {
+ font-family: cursive;
+ text-align: left;
+}
+hr {
+  max-width: 400px;
+  margin-left: 150px;
+}
+#background {
+  background-image: url(./images/open-book.jpg);
+  background-size: cover;
+  position: fixed;
+
+}
+#biggest {
+  
+}
+.App {
+  heigth: 100vh;
+  width: 100vw;
+  align-items: center;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.subTitle {
+ font-size: 12;
+ text-align: left;
+ justify-content: left;
+ max-width: 500px;
+ padding-left: 150px;
+}
+.textField {
+ font-weight: bold;
+ border: 1px solid black;
+ min-width: 500px;
+
+}
+#rules {
+  padding-left: 20px;
+}
